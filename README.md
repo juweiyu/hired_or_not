@@ -1,19 +1,19 @@
 # hired_or_not
 
-I use the gradient boosting classifier [1] to determine if a candidate is hired in this classification task. The features include a set of multiple-choice questions, job category, gender, and text response. 
+I use the Gradient boosting classifier [1] to determine if a candidate is hired in this classification task. The features include a set of multiple-choice questions, job category, gender, and text response. 
 
 ## Classification
-The notebook of the classification can be found below:
+The notebook of the classification can be found in
 https://github.com/juweiyu/hired_or_not/blob/main/Classification.ipynb
 
 
 ## Performance
-The gradient boosting classifier can achieve an average F1 score of 0.580. This can be improved by using parameter tunning, or using other models such as XGBOOST (it will take longer time so I choose Gradient boosting classifier).
+The Gradient boosting classifier can achieve an average F1 score of 0.580. This can be improved by using parameter tunning or using other models such as XGBOOST (it will take longer time, so I choose Gradient boosting classifier).
 
 ## Fairness
 The prediction result shows that it is treating male and female candidates relatively fair. This can be shown in two aspects:
 
-* The feature importance diagram shows that "gender" has a lower importance compared to other features
+* The feature importance diagram shows that "gender" has lower importance compared to other features
 * In the partial dependency plot of "gender", we can see that the difference between male and female is negligible
 
 ## Explainability
