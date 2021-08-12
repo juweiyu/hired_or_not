@@ -2,6 +2,10 @@
 
 I use the Gradient boosting classifier [1] to determine if a candidate is hired in this classification task. The features include a set of multiple-choice questions, job category, gender, and text response. 
 
+## Techniques
+* To translate the text response of each candidate into something that could be understood by the model, I used a sentimental analysis model called flair [2] to translate the text response into a value between -1 to 1. -1 means very negative, and 1 means very positive. 
+* I use the Gradient boosting classifier to perform the classification task. 
+
 ## Classification
 The notebook of the classification can be found in
 https://github.com/juweiyu/hired_or_not/blob/main/Classification.ipynb
@@ -24,3 +28,4 @@ The prediction result shows that it is treating male and female candidates relat
 ## REFERENCE
 
 [1] Friedman, Jerome H. "Greedy function approximation: a gradient boosting machine." Annals of statistics (2001): 1189-1232.  
+[2] https://github.com/flairNLP/flair
