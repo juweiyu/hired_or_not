@@ -1,4 +1,4 @@
-# hired_or_not
+# Hired or not
 
 I use the Gradient boosting classifier [1] to determine if a candidate is hired in this classification task. The features include a set of multiple-choice questions, job category, gender, and text response. 
 
