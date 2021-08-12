@@ -12,7 +12,7 @@ https://github.com/juweiyu/hired_or_not/blob/main/Classification.ipynb
 
 
 ## Performance
-The Gradient boosting classifier can achieve an average F1 score of 0.580. This can be improved by using parameter tunning or using other models such as XGBOOST (it will take longer time, so I choose the Gradient boosting classifier).
+The Gradient boosting classifier can achieve an average F1 score of 0.580 in this task. This can be improved by using parameter tunning or using other models such as XGBOOST (it will take longer time, so I choose the Gradient boosting classifier).
 
 ## Fairness
 The prediction result shows that it is treating male and female candidates relatively fair. This can be shown in two aspects:
